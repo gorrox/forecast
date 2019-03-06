@@ -177,6 +177,9 @@ if __name__ == '__main__':
     #  format of {name: columns}
     reports = {'B1770': ['imbalancePriceAmountGBP', 'priceCategory'],
                'B1780': ['imbalanceQuantityMAW']}
+               
+    # causing an error
+    #reports = {'B1720': ['controlArea', 'businessType', 'marketAgreementType', 'powerSystemResourceType', 'imbalanceQuantityDirection', 'quantity']}
 
     #  the dates we want data for
     settlementdates = make_dates_list('2010-01-01', 8*365)
